@@ -1,0 +1,39 @@
+{
+    "name": "venomousboy/yii2-permission-rules",
+    "description": "Check user role and status",
+    "version": "1.0.0",
+    "type": "yii2-extension",
+    "keywords": [
+	"php71",
+        "yii2",
+        "role",
+        "status",
+        "permission",
+        "user",
+        "rules",
+        "extension"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/venomousboy/yii2-permission-rules/issues",
+        "source": "https://github.com/venomousboy/yii2-permission-rules"
+    },
+    "authors": [
+        {
+            "name": "Deykhin Vladislav",
+            "email": "deykhin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "venomousboy\\yii2-permission-rules\\": ""
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "*"
+    }
+}
